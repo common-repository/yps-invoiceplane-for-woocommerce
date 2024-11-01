@@ -1,0 +1,16 @@
+.remodal {
+    top: 50px !important;
+}
+
+.remodal-close {
+    z-index: 10000;
+}
+
+.yps-framework-form-modal-content .yps-bootstrap {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.yps-framework-form-modal-content {
+    padding: 0px !important;
+}

@@ -1,0 +1,9 @@
+.yps-spinner-form-field {
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+}
+
+.yps-spinner-form-field img {
+    max-width: 100px;
+}

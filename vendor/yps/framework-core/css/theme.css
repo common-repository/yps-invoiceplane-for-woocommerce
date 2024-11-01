@@ -1,0 +1,95 @@
+ .yps-bootstrap.yps-plugin {
+    background-color: transparent !important;
+    /* background-color: white; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.yps-bootstrap.yps-plugin .form-check-label {
+    margin-bottom: 20px;
+}
+
+.yps-bootstrap.yps-plugin .card {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.yps-bootstrap.yps-plugin .card-header {
+    font-weight: bold;
+}
+
+.yps-bootstrap.yps-plugin ol.breadcrumb {
+    margin-left: auto !important;
+}
+
+.yps-bootstrap.yps-plugin .yps-mandatory-field {
+    color: red;
+}
+
+.yps-bootstrap.yps-plugin .yps-field-label {
+    font-weight: bold;
+}
+
+.woocommerce_options_panel .yps-bootstrap.yps-plugin input.form-control,
+.woocommerce_options_panel .yps-bootstrap.yps-plugin select.form-control {
+    width: 100% !important;
+}
+
+.yps-bootstrap.yps-plugin .tab-pane {
+    border: 1px solid #dee2e6 !important;
+}
+
+.yps-bootstrap.yps-plugin .nav-tabs .nav-item {
+    min-width: 100px;
+    text-align: center;
+}
+
+.yps-bootstrap.yps-plugin .ms-container {
+    width: 100% !important;
+}
+
+#growls-default {
+    top: 50px !important;
+}
+
+.yps-bootstrap.yps-plugin li.nav-item {
+    margin-bottom: 0 !important;
+}
+
+.yps-bootstrap.yps-plugin .btn.btn-circle {
+    background-color: gray;
+}
+
+.yps-bootstrap.yps-plugin .btn-success.btn-circle {
+    background-color: #28a745;
+}
+
+.yps-bootstrap.yps-plugin .btn-primary.btn-circle,
+.yps-bootstrap.yps-plugin .btn-success.btn-circle,
+.yps-bootstrap.yps-plugin .btn.btn-circle {
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center;
+    padding: 6px 0 !important;
+    font-size: 17px;
+    line-height: 1.428571429;
+    border-radius: 40px !important;
+
+    color:white !important;
+}
+
+.modal-backdrop {
+    opacity: 0.5;
+    z-index: 1049;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}
+
+.yps-bootstrap.yps-plugin .col-form-label {
+    font-weight: bold;
+}

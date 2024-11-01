@@ -1,0 +1,533 @@
+{
+    "admin": {
+        "css": {
+            "yps-framework-core-loader": {
+                "script_name": "yps-framework-core-loader",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/css\/loader.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-core-theme": {
+                "script_name": "yps-framework-core-theme",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/css\/theme.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-core-utility": {
+                "script_name": "yps-framework-core-utility",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/css\/utility.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-core-yps-bootstrap": {
+                "script_name": "yps-framework-core-yps-bootstrap",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/css\/yps-bootstrap.css",
+                "version": "1.0.0.1"
+            },
+            "fontawesome-all": {
+                "script_name": "fontawesome-all",
+                "package_name": "externals\/fontawesome",
+                "file": "vendor\/externals\/fontawesome\/css\/all.css",
+                "version": "5.11.2.0"
+            },
+            "yps-framework-plugin-plugin-admin": {
+                "script_name": "yps-framework-plugin-plugin-admin",
+                "package_name": "yps\/framework-plugin",
+                "file": "vendor\/yps\/framework-plugin\/css\/plugin-admin.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-plugin-plugin-theme": {
+                "script_name": "yps-framework-plugin-plugin-theme",
+                "package_name": "yps\/framework-plugin",
+                "file": "vendor\/yps\/framework-plugin\/css\/plugin-theme.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-form-color-picker": {
+                "script_name": "yps-framework-form-color-picker",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/css\/color-picker.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-form-datetime": {
+                "script_name": "yps-framework-form-datetime",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/css\/datetime.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-form-modal": {
+                "script_name": "yps-framework-form-modal",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/css\/modal.css",
+                "version": "1.0.0.1"
+            },
+            "yps-framework-form-spinner": {
+                "script_name": "yps-framework-form-spinner",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/css\/spinner.css",
+                "version": "1.0.0.1"
+            },
+            "xdsoft-datetimepicker-jquery-datetimepicker": {
+                "script_name": "xdsoft-datetimepicker-jquery-datetimepicker",
+                "package_name": "externals\/xdsoft-datetimepicker",
+                "file": "vendor\/externals\/xdsoft-datetimepicker\/build\/jquery.datetimepicker.css",
+                "version": "2.5.4.0"
+            },
+            "spectrum-spectrum": {
+                "script_name": "spectrum-spectrum",
+                "package_name": "externals\/spectrum",
+                "file": "vendor\/externals\/spectrum\/dist\/spectrum.css",
+                "version": "2.0.5.0"
+            },
+            "chosen-chosen": {
+                "script_name": "chosen-chosen",
+                "package_name": "externals\/chosen",
+                "file": "vendor\/externals\/chosen\/chosen.css",
+                "version": "1.8.7.0"
+            },
+            "remodal-remodal-default-theme": {
+                "script_name": "remodal-remodal-default-theme",
+                "package_name": "externals\/remodal",
+                "file": "vendor\/externals\/remodal\/dist\/remodal-default-theme.css",
+                "version": "1.1.1.0"
+            },
+            "remodal-remodal": {
+                "script_name": "remodal-remodal",
+                "package_name": "externals\/remodal",
+                "file": "vendor\/externals\/remodal\/dist\/remodal.css",
+                "version": "1.1.1.0"
+            },
+            "yps-framework-record-record": {
+                "script_name": "yps-framework-record-record",
+                "package_name": "yps\/framework-record",
+                "file": "vendor\/yps\/framework-record\/css\/record.css",
+                "version": "1.0.0.1"
+            },
+            "datatables-datatables-bootstrap4": {
+                "script_name": "datatables-datatables-bootstrap4",
+                "package_name": "externals\/datatables",
+                "file": "vendor\/externals\/datatables\/media\/css\/dataTables.bootstrap4.css",
+                "version": "1.10.18.0"
+            }
+        },
+        "js": {
+            "yps-framework-core-ajax-combo": {
+                "script_name": "yps-framework-core-ajax-combo",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/ajax-combo.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-array": {
+                "script_name": "yps-framework-core-array",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/array.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-core",
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-core": {
+                "script_name": "yps-framework-core-core",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/core.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-data": {
+                "script_name": "yps-framework-core-data",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/data.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-file-upload": {
+                "script_name": "yps-framework-core-file-upload",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/file-upload.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-helper": {
+                "script_name": "yps-framework-core-helper",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/helper.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-jquery-ext": {
+                "script_name": "yps-framework-core-jquery-ext",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/jquery-ext.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-loader": {
+                "script_name": "yps-framework-core-loader",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/loader.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-prompt": {
+                "script_name": "yps-framework-core-prompt",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/prompt.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-core-scroll-drag": {
+                "script_name": "yps-framework-core-scroll-drag",
+                "package_name": "yps\/framework-core",
+                "file": "vendor\/yps\/framework-core\/js\/scroll-drag.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-string-string",
+                    "bootstrap-bootstrap-bundle",
+                    "fontawesome-all",
+                    "he-he"
+                ]
+            },
+            "yps-framework-string-string": {
+                "script_name": "yps-framework-string-string",
+                "package_name": "yps\/framework-string",
+                "file": "vendor\/yps\/framework-string\/js\/string.js",
+                "version": "1.0.0.1",
+                "deps": []
+            },
+            "bootstrap-bootstrap-bundle": {
+                "script_name": "bootstrap-bootstrap-bundle",
+                "package_name": "externals\/bootstrap",
+                "file": "vendor\/externals\/bootstrap\/dist\/js\/bootstrap.bundle.js",
+                "version": "4.6.0.0",
+                "deps": []
+            },
+            "fontawesome-all": {
+                "script_name": "fontawesome-all",
+                "package_name": "externals\/fontawesome",
+                "file": "vendor\/externals\/fontawesome\/js\/all.js",
+                "version": "5.11.2.0",
+                "deps": []
+            },
+            "he-he": {
+                "script_name": "he-he",
+                "package_name": "externals\/he",
+                "file": "vendor\/externals\/he\/he.js",
+                "version": "1.2.0.0",
+                "deps": []
+            },
+            "yps-framework-form-ajax-form": {
+                "script_name": "yps-framework-form-ajax-form",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/ajax-form.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "yps-framework-form-color-picker": {
+                "script_name": "yps-framework-form-color-picker",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/color-picker.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "yps-framework-form-datetime": {
+                "script_name": "yps-framework-form-datetime",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/datetime.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-form-form",
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "yps-framework-form-form": {
+                "script_name": "yps-framework-form-form",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/form.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "yps-framework-form-modal-form-field": {
+                "script_name": "yps-framework-form-modal-form-field",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/modal-form-field.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "yps-framework-form-numeric-form-field": {
+                "script_name": "yps-framework-form-numeric-form-field",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/numeric-form-field.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "yps-framework-form-wp-media": {
+                "script_name": "yps-framework-form-wp-media",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/wp-media.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "yps-framework-form-yps-chosen": {
+                "script_name": "yps-framework-form-yps-chosen",
+                "package_name": "yps\/framework-form",
+                "file": "vendor\/yps\/framework-form\/js\/yps-chosen.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-core-ajax-combo",
+                    "yps-framework-core-array",
+                    "yps-framework-core-core",
+                    "yps-framework-core-data",
+                    "yps-framework-core-file-upload",
+                    "yps-framework-core-helper",
+                    "yps-framework-core-jquery-ext",
+                    "yps-framework-core-loader",
+                    "yps-framework-core-prompt",
+                    "yps-framework-core-scroll-drag",
+                    "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                    "jquery-serialize-json-jquery-serializejson",
+                    "spectrum-spectrum",
+                    "chosen-chosen-jquery",
+                    "jquery-numeric-jquery-numeric",
+                    "remodal-remodal"
+                ]
+            },
+            "xdsoft-datetimepicker-jquery-datetimepicker-full": {
+                "script_name": "xdsoft-datetimepicker-jquery-datetimepicker-full",
+                "package_name": "externals\/xdsoft-datetimepicker",
+                "file": "vendor\/externals\/xdsoft-datetimepicker\/build\/jquery.datetimepicker.full.js",
+                "version": "2.5.4.0",
+                "deps": []
+            },
+            "jquery-serialize-json-jquery-serializejson": {
+                "script_name": "jquery-serialize-json-jquery-serializejson",
+                "package_name": "externals\/jquery-serialize-json",
+                "file": "vendor\/externals\/jquery-serialize-json\/jquery.serializejson.js",
+                "version": "2.9.0.0",
+                "deps": []
+            },
+            "spectrum-spectrum": {
+                "script_name": "spectrum-spectrum",
+                "package_name": "externals\/spectrum",
+                "file": "vendor\/externals\/spectrum\/dist\/spectrum.js",
+                "version": "2.0.5.0",
+                "deps": []
+            },
+            "chosen-chosen-jquery": {
+                "script_name": "chosen-chosen-jquery",
+                "package_name": "externals\/chosen",
+                "file": "vendor\/externals\/chosen\/chosen.jquery.js",
+                "version": "1.8.7.0",
+                "deps": []
+            },
+            "jquery-numeric-jquery-numeric": {
+                "script_name": "jquery-numeric-jquery-numeric",
+                "package_name": "externals\/jquery-numeric",
+                "file": "vendor\/externals\/jquery-numeric\/jquery.numeric.js",
+                "version": "1.5.0.0",
+                "deps": []
+            },
+            "remodal-remodal": {
+                "script_name": "remodal-remodal",
+                "package_name": "externals\/remodal",
+                "file": "vendor\/externals\/remodal\/dist\/remodal.js",
+                "version": "1.1.1.0",
+                "deps": []
+            },
+            "yps-framework-settings-settings": {
+                "script_name": "yps-framework-settings-settings",
+                "package_name": "yps\/framework-settings",
+                "file": "vendor\/yps\/framework-settings\/js\/settings.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "yps-framework-record-record"
+                ]
+            },
+            "yps-framework-record-record": {
+                "script_name": "yps-framework-record-record",
+                "package_name": "yps\/framework-record",
+                "file": "vendor\/yps\/framework-record\/js\/record.js",
+                "version": "1.0.0.1",
+                "deps": [
+                    "datatables-jquery-datatables",
+                    "datatables-datatables-bootstrap4"
+                ]
+            },
+            "datatables-jquery-datatables": {
+                "script_name": "datatables-jquery-datatables",
+                "package_name": "externals\/datatables",
+                "file": "vendor\/externals\/datatables\/media\/js\/jquery.dataTables.js",
+                "version": "1.10.18.0",
+                "deps": []
+            },
+            "datatables-datatables-bootstrap4": {
+                "script_name": "datatables-datatables-bootstrap4",
+                "package_name": "externals\/datatables",
+                "file": "vendor\/externals\/datatables\/media\/js\/dataTables.bootstrap4.js",
+                "version": "1.10.18.0",
+                "deps": []
+            }
+        }
+    }
+}

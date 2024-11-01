@@ -1,0 +1,42 @@
+{
+
+    "minimum-stability": "dev",
+
+    "require": {
+      "yps/framework-core": "dev-trunk",
+      "yps/framework-plugin": "dev-trunk",
+      "yps/framework-woocommerce": "dev-trunk",
+      "yps/framework-wordpress": "dev-trunk",
+      "yps/framework-invoiceplane": "dev-trunk",
+      "yps/framework-net": "dev-trunk",
+      "yps/framework-file-system": "dev-trunk",
+      "yps/framework-form": "dev-trunk",
+      "yps/framework-settings": "dev-trunk"
+    },
+  
+    "config": {
+      "autoloader-suffix": "YPS_WC_Invoice_Plane_Autoloader"
+    },
+  
+    "autoload": {
+  
+      "psr-4": {
+        "YPS\\WC_Invoice_Plane\\":"app/"
+      },
+  
+      "classmap": [
+        "app/"
+      ]
+    },
+  
+    "extra": {
+
+      "dist": {
+        "*": ["*"]
+      },
+  
+      "plugin_namespace": "YPS\\WC_Invoice_Plane"
+    }
+  
+  }
+  

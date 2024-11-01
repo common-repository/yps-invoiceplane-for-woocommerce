@@ -1,0 +1,809 @@
+{
+    "packages": [
+        {
+            "name": "externals/bootstrap",
+            "version": "4.6.0",
+            "version_normalized": "4.6.0.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/bootstrap",
+                "reference": "tags/v4.6.0/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "LICENSE"
+                    ],
+                    "bootstrap-js": [
+                        "dist/js/bootstrap.bundle.min.js",
+                        "dist/js/bootstrap.bundle.js",
+                        "dist/js/bootstrap.bundle.min.js.map",
+                        "dist/js/bootstrap.bundle.js.map"
+                    ],
+                    "bootstrap-css": [
+                        "dist/css/bootstrap.css",
+                        "dist/css/bootstrap.min.css",
+                        "dist/css/bootstrap-grid.css",
+                        "dist/css/bootstrap-grid.min.css",
+                        "dist/css/bootstrap.css.map",
+                        "dist/css/bootstrap.min.css.map",
+                        "dist/css/bootstrap-grid.css.map",
+                        "dist/css/bootstrap-grid.min.css.map"
+                    ],
+                    "bootstrap-reboot": [
+                        "dist/css/bootstrap-reboot.css",
+                        "dist/css/bootstrap-reboot.min.css",
+                        "dist/css/bootstrap-reboot.css.map",
+                        "dist/css/bootstrap-reboot.min.css.map"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/bootstrap"
+        },
+        {
+            "name": "externals/chosen",
+            "version": "1.8.7",
+            "version_normalized": "1.8.7.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/chosen",
+                "reference": "tags/v1.8.7/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "chosen.jquery.js",
+                        "chosen.jquery.min.js",
+                        "chosen.min.css",
+                        "chosen.css",
+                        "chosen-sprite.png",
+                        "chosen-sprite@2x.png",
+                        "LICENSE.md"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/chosen"
+        },
+        {
+            "name": "externals/datatables",
+            "version": "1.10.18",
+            "version_normalized": "1.10.18.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/datatables",
+                "reference": "tags/v1.10.18/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "images/*",
+                        "license.txt"
+                    ],
+                    "jquery-css": [
+                        "media/css/jquery.dataTables.*"
+                    ],
+                    "jquery-js": [
+                        "media/js/jquery.dataTables.*"
+                    ],
+                    "bootstrap": [
+                        "media/css/dataTables.bootstrap.*",
+                        "media/js/dataTables.bootstrap.*"
+                    ],
+                    "bootstrap4": [
+                        "media/css/dataTables.bootstrap4.*",
+                        "media/js/dataTables.bootstrap4.*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "license": [
+                "MIT"
+            ],
+            "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.",
+            "homepage": "http://www.datatables.net/",
+            "support": {
+                "forum": "https://datatables.net/forums",
+                "source": "https://github.com/DataTables/DataTablesSrc/"
+            },
+            "install-path": "../externals/datatables"
+        },
+        {
+            "name": "externals/fontawesome",
+            "version": "5.11.2",
+            "version_normalized": "5.11.2.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/fontawesome",
+                "reference": "tags/v5.11.2/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "css/all.css",
+                        "css/all.min.css",
+                        "js/all.js",
+                        "js/all.min.js",
+                        "webfonts/*",
+                        "LICENSE.txt"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "license": [
+                "CC-BY-4.0",
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Chase",
+                    "homepage": "http://twitter.com/supercodepoet"
+                },
+                {
+                    "name": "Dave Gandy",
+                    "homepage": "http://twitter.com/davegandy"
+                },
+                {
+                    "name": "Rob Madole",
+                    "homepage": "http://twitter.com/robmadole"
+                },
+                {
+                    "name": "Jory Raphael",
+                    "homepage": "http://twitter.com/sensibleworld"
+                },
+                {
+                    "name": "Geremia Taglialatela",
+                    "homepage": "http://twitter.com/gtagliala"
+                },
+                {
+                    "name": "Brian Talbot",
+                    "homepage": "http://twitter.com/talbs"
+                },
+                {
+                    "name": "Mike Wilkerson",
+                    "homepage": "http://twitter.com/mw77"
+                }
+            ],
+            "description": "The iconic font, CSS, and SVG framework",
+            "homepage": "https://fontawesome.com",
+            "keywords": [
+                "awesome",
+                "bootstrap",
+                "font",
+                "font",
+                "fontawesome",
+                "icon",
+                "svg"
+            ],
+            "support": {
+                "email": "hello@fontawesome.com",
+                "issues": "https://github.com/FortAwesome/Font-Awesome/issues",
+                "source": "https://github.com/FortAwesome/Font-Awesome",
+                "docs": "http://fontawesome.com/how-to-use"
+            },
+            "install-path": "../externals/fontawesome"
+        },
+        {
+            "name": "externals/he",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/he",
+                "reference": "tags/v1.2.0/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "he.js",
+                        "LICENSE-MIT.txt"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/he"
+        },
+        {
+            "name": "externals/jquery-numeric",
+            "version": "1.5.0",
+            "version_normalized": "1.5.0.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/jquery-numeric",
+                "reference": "tags/v1.5.0/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*.js",
+                        "LICENSE"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/jquery-numeric"
+        },
+        {
+            "name": "externals/jquery-serialize-json",
+            "version": "2.9.0",
+            "version_normalized": "2.9.0.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/jquery-serialize-json",
+                "reference": "tags/v2.9.0/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "jquery.serializejson.js",
+                        "jquery.serializejson.min.js",
+                        "LICENSE.txt",
+                        "README.md"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/jquery-serialize-json"
+        },
+        {
+            "name": "externals/minify",
+            "version": "1.3.66",
+            "version_normalized": "1.3.66.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/minify",
+                "reference": "tags/v1.3.66/src"
+            },
+            "require": {
+                "externals/path-converter": "~1.1"
+            },
+            "suggest": {
+                "psr/cache-implementation": "Cache implementation to use with Minify::cache"
+            },
+            "bin": [
+                "bin/minifycss",
+                "bin/minifyjs"
+            ],
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "data/*",
+                        "src/*",
+                        "LICENSE"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\Minify\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "homepage": "http://www.mullie.eu",
+                    "email": "minify@mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
+            "homepage": "http://www.minifier.org",
+            "keywords": [
+                "css",
+                "javascript",
+                "js",
+                "minifier",
+                "minify"
+            ],
+            "install-path": "../externals/minify"
+        },
+        {
+            "name": "externals/path-converter",
+            "version": "1.1.3",
+            "version_normalized": "1.1.3.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/path-converter",
+                "reference": "tags/v1.1.3/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "src/*",
+                        "LICENSE"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\PathConverter\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "homepage": "http://www.mullie.eu",
+                    "email": "pathconverter@mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Relative path converter",
+            "homepage": "http://github.com/matthiasmullie/path-converter",
+            "keywords": [
+                "converter",
+                "path",
+                "paths",
+                "relative"
+            ],
+            "install-path": "../externals/path-converter"
+        },
+        {
+            "name": "externals/remodal",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/remodal",
+                "reference": "tags/v1.1.1/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "dist/*.js",
+                        "dist/*.css",
+                        "LICENSE"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/remodal"
+        },
+        {
+            "name": "externals/spectrum",
+            "version": "2.0.5",
+            "version_normalized": "2.0.5.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/spectrum",
+                "reference": "tags/v2.0.5/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "dist/spectrum.min.js",
+                        "dist/spectrum.js",
+                        "dist/spectrum.css",
+                        "dist/spectrum.min.css",
+                        "dist/spectrum.scss",
+                        "LICENSE"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/spectrum"
+        },
+        {
+            "name": "externals/xdsoft-datetimepicker",
+            "version": "2.5.4",
+            "version_normalized": "2.5.4.0",
+            "source": {
+                "type": "svn-export",
+                "url": "https://svn.yourcloud360.com/externals/externals/xdsoft-datetimepicker",
+                "reference": "tags/v2.5.4/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "build/*.js",
+                        "build/*.css"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "install-path": "../externals/xdsoft-datetimepicker"
+        },
+        {
+            "name": "yps/framework-core",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-core",
+                "reference": "trunk/src"
+            },
+            "require": {
+                "externals/bootstrap": "4.6.0",
+                "externals/fontawesome": "5.11.2",
+                "externals/he": "1.2.0",
+                "externals/minify": "1.3.66"
+            },
+            "type": "library",
+            "extra": {
+                "script_deps": {
+                    "yps-framework-core-array": [
+                        "yps-framework-core-core"
+                    ]
+                },
+                "require": {
+                    "externals/bootstrap": [
+                        "bootstrap-js"
+                    ]
+                },
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Core\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-core"
+        },
+        {
+            "name": "yps/framework-database",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-database",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "framework_mapping": "Database",
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Database\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-database"
+        },
+        {
+            "name": "yps/framework-file-system",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-file-system",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\File_System\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-file-system"
+        },
+        {
+            "name": "yps/framework-form",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-form",
+                "reference": "trunk/src"
+            },
+            "require": {
+                "externals/chosen": "1.8.7",
+                "externals/jquery-numeric": "1.5.0",
+                "externals/jquery-serialize-json": "2.9.0",
+                "externals/remodal": "1.1.1",
+                "externals/spectrum": "2.0.5",
+                "externals/xdsoft-datetimepicker": "2.5.4",
+                "yps/framework-core": "dev-trunk"
+            },
+            "type": "library",
+            "extra": {
+                "framework_mapping": "Form",
+                "script_deps": {
+                    "yps-framework-form-datetime": [
+                        "yps-framework-form-form"
+                    ]
+                },
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Form\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-form"
+        },
+        {
+            "name": "yps/framework-invoiceplane",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-invoiceplane",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Invoice_Plane\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-invoiceplane"
+        },
+        {
+            "name": "yps/framework-net",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-net",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Net\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-net"
+        },
+        {
+            "name": "yps/framework-plugin",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-plugin",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Plugin\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-plugin"
+        },
+        {
+            "name": "yps/framework-record",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-record",
+                "reference": "trunk/src"
+            },
+            "require": {
+                "externals/datatables": "1.10.18"
+            },
+            "type": "library",
+            "extra": {
+                "framework_mapping": "Record",
+                "require": {
+                    "externals/datatables": [
+                        "jquery-js",
+                        "bootstrap4"
+                    ]
+                },
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Record\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-record"
+        },
+        {
+            "name": "yps/framework-settings",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-settings",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "framework_mapping": "Settings",
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Settings\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-settings"
+        },
+        {
+            "name": "yps/framework-string",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-string",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\String\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-string"
+        },
+        {
+            "name": "yps/framework-woocommerce",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-woocommerce",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Woocommerce\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-woocommerce"
+        },
+        {
+            "name": "yps/framework-wordpress",
+            "version": "dev-trunk",
+            "version_normalized": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://svn.yourcloud360.com/yourplugins/yps-framework/framework-wordpress",
+                "reference": "trunk/src"
+            },
+            "type": "library",
+            "extra": {
+                "dist": {
+                    "*": [
+                        "*"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YPS\\Framework\\Wordpress\\": "includes/"
+                },
+                "classmap": [
+                    "includes/"
+                ]
+            },
+            "install-path": "../yps/framework-wordpress"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

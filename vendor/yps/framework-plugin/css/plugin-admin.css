@@ -1,0 +1,9 @@
+/* CSS is always performed, also outside plugin */
+
+.toplevel_page_yourplugins .wp-first-item {
+    display: none !important;
+}
+
+#toplevel_page_yourplugins .wp-menu-image img {
+    padding: 5px 0 0 0 !important;
+}

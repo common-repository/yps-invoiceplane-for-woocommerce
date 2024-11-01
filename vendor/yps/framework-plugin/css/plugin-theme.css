@@ -1,0 +1,367 @@
+/* CSS is only performed inside plugin */
+
+#wpwrap {
+    background-color: white;
+}
+
+#wpbody-content .yps-bootstrap.yps-plugin {
+    margin-right: 15px !important;
+}
+
+.yps-plugin-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.yps-bootstrap.yps-plugin {
+    font-family: 'Open sans' !important;
+    font-size: larger;
+    font-display: swap;
+    line-height: 1.7 !important;
+}
+
+.yps-bootstrap.yps-plugin h1, 
+.yps-bootstrap.yps-plugin h2, 
+.yps-bootstrap.yps-plugin h3, 
+.yps-bootstrap.yps-plugin h4, 
+.yps-bootstrap.yps-plugin h5, 
+.yps-bootstrap.yps-plugin h6 {
+    font-family: Roboto;
+    line-height: 1.7 !important;
+}
+
+.yps-bootstrap.yps-plugin .card .card-header {
+    background-color: #0B7DE2;
+    color: white;
+}
+
+.yps-bootstrap.yps-plugin .btn-primary,
+.yps-bootstrap.yps-plugin .button,
+.yps-bootstrap.yps-plugin .nav-pills .nav-link.active, 
+.yps-bootstrap.yps-plugin .nav-pills .show > .nav-link {
+	background-color: #0B7DE2 !important;
+	border: 1px solid #0B7DE2 !important;
+}
+
+.yps-bootstrap.yps-plugin .btn {
+    border-radius: 15px;
+}
+
+.yps-bootstrap.yps-plugin .btn,
+.yps-bootstrap.yps-plugin .btn .btn-primary,
+.yps-bootstrap.yps-plugin .button,
+.yps-bootstrap.yps-plugin .nav-pills .nav-link.active, 
+.yps-bootstrap.yps-plugin .nav-pills .show > .nav-link {
+
+	font-weight: 700;
+	color: white;
+    padding: 0.7rem 1.7rem;
+    text-decoration: none;
+}
+
+.yps-bootstrap.yps-plugin .btn-primary:hover,
+.yps-bootstrap.yps-plugin .button:hover {
+	background-color: white !important;
+    color: #0B7DE2 !important;
+}
+
+.yps-bootstrap.yps-plugin .btn-success:hover {
+	background-color: white !important;
+    color: #28a745 !important;
+}
+
+.yps-bootstrap.yps-plugin .btn-danger:hover {
+	background-color: white !important;
+    color: #bd2130 !important;
+}
+
+
+.yps-bootstrap.yps-plugin .btn {
+    /* -webkit-box-shadow: 0 6px 15px rgba(0,0,0,0.16); */
+    /* box-shadow: 0 6px 15px rgba(0,0,0,0.16); */
+}
+
+.yps-unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.yps-field-year {
+    max-width: 100px;
+}
+
+.yps-field-months {
+    min-width: 150px;
+}
+
+.yps-bold {
+    font-weight: bold;
+}
+
+/* Fontawesome Icon */
+.yps-bootstrap.yps-plugin .svg-inline--fa {
+    vertical-align: -.125em !important;
+}
+
+.yps-bootstrap.yps-plugin input[type='text'].form-control,
+.yps-bootstrap.yps-plugin select.form-control,
+.yps-bootstrap.yps-plugin textarea.form-control {
+    height: auto;
+    max-width: 100%;
+}
+
+.yps-bootstrap.yps-plugin input[type='checkbox'].form-control {
+    width: 40px;
+}
+
+.yps-bootstrap.yps-plugin input[type='checkbox'].form-control::after {
+	content: "";
+	opacity: 0;
+	display: block;
+	left: 14px;
+	top: 4px;
+	position: absolute;
+	width: 14px;
+	height: 22px;
+	border: 3px solid var(--form--color-text);
+	border-top: 0;
+	border-left: 0;
+	transform: rotate(30deg);
+}
+
+.yps-bootstrap.yps-plugin input[type='checkbox'].form-control:checked::after {
+    opacity: 1;
+}
+
+.yps-bootstrap.yps-plugin .btn-primary.active {
+    background-color: coral !important;
+    border-color: coral !important;
+}
+
+.yps-bootstrap.yps-plugin .page-item.active .page-link {
+    background-color: #0B7DE2 !important;
+    border: 1px solid #0B7DE2 !important;
+    color: white !important;
+    padding: 0.7rem 1.7rem !important;
+
+}
+
+.yps-bootstrap.yps-plugin .nav-tabs {
+    border-bottom: 0px !important;
+}
+
+.yps-bootstrap.yps-plugin .tab-pane {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.yps-bootstrap.yps-plugin .nav-tabs .nav-link {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.yps-bootstrap.yps-plugin .nav-tabs .nav-link.active {
+    background-color: #0B7DE2 !important;
+    border-color: #0B7DE2 !important;
+    color: white !important;
+}
+
+.yps-bootstrap.yps-plugin .nav-tabs .nav-item {
+    margin-right: 10px;
+}
+
+.yps-bootstrap.yps-plugin .form-control.custom-select {
+    padding-top: 8px;
+    padding-right: 20px;
+}
+
+.yps-bootstrap.yps-plugin .form-control {
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.yps-bootstrap.yps-plugin .input-group .btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.yps-bootstrap.yps-plugin .page-item:first-child .page-link {
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    padding: 0.7rem 1.7rem !important;
+}
+
+.yps-bootstrap.yps-plugin .page-item:last-child .page-link {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    padding: 0.7rem 1.7rem !important;
+}
+
+.yps-record-list-title {
+    margin-top: 20px;
+}
+
+.yps-bootstrap.yps-plugin a {
+    color: #0B7DE2;
+}
+
+.yps-bootstrap.yps-plugin a:hover {
+    color: #0B7DFF;
+}
+
+.yps-bootstrap.yps-plugin #DataTables_Table_0_wrapper .row:first-child,
+.yps-bootstrap.yps-plugin #DataTables_Table_0_wrapper .row:last-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.yps-bootstrap.yps-plugin .card {
+    border-radius: 15px;
+}
+
+.yps-bootstrap.yps-plugin .card .card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.yps-bootstrap.yps-plugin .form-check-input {
+    margin-top: 0.65rem;
+}
+
+.yps-bootstrap.yps-plugin .form-check-input:checked:before {
+    background-color: #0B7DE2 !important;
+}
+
+.yps-bootstrap.yps-plugin .form-check-label {
+    margin-left: 10px;
+}
+
+.yps-bootstrap.yps-plugin .btn-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.yps-bootstrap.yps-plugin .btn-toolbar {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 15px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.yps-bootstrap.yps-plugin .btn-group:first-child,
+.yps-bootstrap.yps-plugin .btn-group .select2-selection:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.yps-bootstrap.yps-plugin .btn-group:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.remodal {
+    border-radius: 15px;
+}
+
+.remodal-close {
+    right: 0;
+    left: auto;
+    margin: 5px;
+}
+
+.yps-bootstrap.yps-plugin .select2-selection {
+    border-radius: 15px;
+    padding-top: 4px;
+    padding-left: 4px;
+    height: 48px !important;
+    min-height: 48px !important;
+}
+
+.yps-bootstrap.yps-plugin .alert {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.yps-bootstrap.yps-plugin .btn.disabled {
+    color: #fff;
+    background-color: grey;
+    border-color: grey;
+    opacity: 0.3;
+    cursor: default;
+}
+
+.yps-bootstrap.yps-plugin .yps-record-table td {
+    vertical-align: middle;
+}
+
+.yps-bootstrap.yps-plugin .yps-html-list .item.selected {
+    background-color: #0B7DE2;
+    color: white;
+}
+
+.yps-bootstrap.yps-plugin .chosen-container .chosen-choices,
+.yps-bootstrap.yps-plugin .chosen-container .chosen-single {
+	border-radius: 10px;
+	height: auto !important;
+    padding-top: 3px;
+	padding-left: 10px;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.yps-bootstrap.yps-plugin .chosen-container .chosen-single div b {
+    margin-top: 4px;
+}
+
+.yps-bootstrap.yps-plugin .modal .close {
+    background-color: white;
+    color: black;
+}
+
+/* Remove overflow issue */
+.yps-bootstrap.yps-plugin .accordion > .card {
+    overflow: initial;
+}
+
+.yps-bootstrap.yps-plugin .accordion .card {
+    margin-top: 2px;
+}
+
+.yps-bootstrap.yps-plugin .accordion .card .card-header {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.yps-bootstrap.yps-plugin .card .no-gutters .card-img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    border-radius: 0%;
+}
+
+.modal-open {
+    overflow: hidden;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}

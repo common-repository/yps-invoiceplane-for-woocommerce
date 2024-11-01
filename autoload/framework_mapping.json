@@ -1,0 +1,14 @@
+{
+    "yps\/framework-core": "Core",
+    "yps\/framework-string": "String",
+    "yps\/framework-plugin": "Plugin",
+    "yps\/framework-woocommerce": "Woocommerce",
+    "yps\/framework-wordpress": "Wordpress",
+    "yps\/framework-invoiceplane": "Invoice_Plane",
+    "yps\/framework-net": "Net",
+    "yps\/framework-file-system": "File_System",
+    "yps\/framework-form": "Form",
+    "yps\/framework-settings": "Settings",
+    "yps\/framework-record": "Record",
+    "yps\/framework-database": "Database"
+}
